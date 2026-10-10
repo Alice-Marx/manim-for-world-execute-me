@@ -1,0 +1,37 @@
+# Python / Manim
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.manim/
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+
+# Render cache & outputs (do not commit)
+media/
+out/
+exports/
+*.mp4
+*.mp3
+*.mov
+*.wav
+*.flac
+partial_movie_files/
+
+# Tooling / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key

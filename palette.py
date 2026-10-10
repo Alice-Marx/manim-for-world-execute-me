@@ -1,0 +1,13 @@
+BG = "#0E1116"
+ME = "#FF8C42"       # AI / me
+YOU = "#F2E8D5"      # user / you
+ERR = "#F5506F"      # error — first semantic use at Illegal arguments (130.74s)
+GREY = "#5A6270"     # absent / offline
+COLD = "#4A6FA5"
+EGG = "#7B4AA8"      # eggplant spot colour
+LEAF = "#5FA35A"
+TOMATO = "#E4572E"   # warm tomato, distinct from ERR rose
+TABBY = "#C98B4B"
+MONO = "DejaVu Sans Mono"
+SERIF = "DejaVu Serif"
+SANS = "DejaVu Sans"
