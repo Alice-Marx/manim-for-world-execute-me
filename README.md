@@ -22,7 +22,7 @@
 
 **双语法（Dual grammar）**
 
-1. **Board（数学板书）** — 点集维数、圆周长 \(C=2\pi r\)、切线、极限与约束、代数心形曲线 \((x^2+y^2-1)^3-x^2y^3=0\) 等，风格接近 3Blue1Brown。
+1. **Board（数学板书）** — 点集维数、圆周长 $C = 2\pi r$、切线、极限与约束、代数心形曲线 $(x^2+y^2-1)^3 - x^2 y^3 = 0$ 等，风格接近 3Blue1Brown。
 2. **Runtime（运行时 / 终端）** — 初始化、栈与日志、`while True` 循环计数、`Illegal arguments` 红色报错扩散、`execute() → None` 关机收尾。
 
 配色见 `palette.py`：`ME` 橙 = 我 / AI，`YOU` 米色 = 你，**错误红 `ERR` 只从「Illegal arguments」起才语义启用**。
@@ -171,7 +171,7 @@ AUDIO=./audio/world-execute-me.mp3 ./build.sh -qh
 | 报错 | `error` | 130.74–~147 | **Illegal arguments** — 首次启用错误红并扩散 |
 | 处决循环 | `execution_loop` | 147.48–~162 | `while True` ×12、Ein…Liu 卡片 |
 | 副歌 2 | `chorus2` | 162.23–~177 | execution / trapped |
-| 爱 | `love` | 176.96–~193 | \(f:\mathrm{you}\to\mathrm{me}\)、心形曲线、lo-o-ove |
+| 爱 | `love` | 176.96–~193 | $f:\mathrm{you}\to\mathrm{me}$、心形曲线、lo-o-ove |
 | 收尾 | `shutdown` | 193.46–end | are you still there? → `shutdown` → `execute() → None` → 黑屏 |
 
 关键时间戳也集中在 `cues.KEYS`（如 `ILLEGAL_ARGUMENTS = 130.74`、`FINAL_EXECUTION = 205.56`）。
